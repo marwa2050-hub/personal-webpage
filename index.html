@@ -1,108 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marwa Nurestani</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marwa Nurestani</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Marwa Nurestani</h1>
+        <p>Week 1 Bootcamp Project – My First Personal Webpage</p>
+    </header>
 
-  <!-- Header -->
-  <header>
-    <h1>Marwa Nurestani</h1>
-    <p>Week 1 Bootcamp Project – My First Personal Webpage</p>
-  </header>
+    <main>
+        <!-- About Me -->
+        <section class="profile">
+            <h2>About Me</h2>
+            <p>
+                Hi! I am an Afghan girl who dreams of studying abroad, being independent, and learning coding. 
+                I enjoy exploring new knowledge and helping others whenever I can.
+            </p>
+        </section>
 
-  <!-- About Me Section -->
-  <section class="profile">
-    <h2>About Me</h2>
-    <p>
-      Hi! I am an Afghan girl who dreams of studying abroad, being independent, and learning coding. 
-      I enjoy exploring new knowledge and helping others whenever I can.
-    </p>
-    <figure>
-      <img src="images/myphoto.jpg" alt="My Photo" class="profile-pic">
-      <figcaption>This is a representative photo of me</figcaption>
-    </figure>
-  </section>
+        <!-- Photo -->
+        <section>
+            <h2>My Photo</h2>
+            <figure>
+                <img src="images/myphoto.jpg" alt="My Photo" class="profile-pic">
+                <figcaption>This is me!</figcaption>
+            </figure>
+        </section>
 
-  <!-- Books and Goals -->
-  <section>
-    <h2>My Favorite Books</h2>
-    <ul>
-      <li>Rich Dad Poor Dad</li>
-      <li>The 7 Habits of Highly Effective People</li>
-      <li>Think and Grow Rich</li>
-      <li>Atomic Habits</li>
-    </ul>
+        <!-- Books and Goals -->
+        <section>
+            <h2>My Favorite Books</h2>
+            <ul>
+                <li>Rich Dad Poor Dad</li>
+                <li>The 7 Habits of Highly Effective People</li>
+                <li>Think and Grow Rich</li>
+                <li>Atomic Habits</li>
+            </ul>
 
-    <h2>My Goals</h2>
-    <ol>
-      <li>Study abroad and gain international education</li>
-      <li>Be independent and self-reliant</li>
-      <li>Learn coding and web development</li>
-      <li>Help girls access education</li>
-    </ol>
-  </section>
+            <h2>My Goals</h2>
+            <ol>
+                <li>Study abroad and gain international education</li>
+                <li>Be independent and self-reliant</li>
+                <li>Learn coding and web development</li>
+                <li>Help girls access education</li>
+            </ol>
+        </section>
 
-  <!-- Fun Fact -->
-  <section class="fun-fact">
-    <h3>Fun Fact About Me</h3>
-    <p>
-      One of my most memorable experiences was preparing for a math competition on my own and solving very difficult problems—it made me realize my determination and love for learning.
-    </p>
-  </section>
+        <!-- Fun Fact -->
+        <div id="fun-fact">
+            <h2>Fun Fact About Me</h2>
+            <p>
+                One of my most memorable experiences was preparing for a math competition on my own 
+                and solving very difficult problems—it made me realize my determination and love for learning.
+            </p>
+        </div>
 
-  <!-- Favorite Website -->
-  <section>
-    <p>
-      Check out my favorite website: 
-      <a href="https://www.example.com" target="_blank">Example Website</a>
-    </p>
-  </section>
+        <!-- Favorite Website -->
+        <section>
+            <h2>Favorite Website</h2>
+            <p>
+                I often learn new skills from 
+                <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.
+            </p>
+        </section>
 
-  <!-- Schedule Table -->
-  <section>
-    <h2>My Schedule</h2>
-    <table>
-      <tr>
-        <th>Day</th>
-        <th>Activity</th>
-      </tr>
-      <tr>
-        <td>Monday</td>
-        <td>Study English</td>
-      </tr>
-      <tr>
-        <td>Tuesday</td>
-        <td>Practice Coding</td>
-      </tr>
-      <tr>
-        <td>Wednesday</td>
-        <td>Graphic Design Practice</td>
-      </tr>
-    </table>
-  </section>
+        <!-- Weekly Schedule -->
+        <section>
+            <h2>My Weekly Schedule</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Activity</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Language Learning</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Graphic Design</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Math Practice</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Free Reading</td>
+                </tr>
+            </table>
+        </section>
 
-  <!-- Contact Form -->
-  <section>
-    <h2>Contact Me</h2>
-    <form action="#">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Your Name">
+        <!-- Contact Form -->
+        <section>
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
 
-      <button type="submit">Send</button>
-    </form>
-  </section>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Marwa N00restani | Bootcamp Project</p>
-  </footer>
-
+    <footer>
+        <p>&copy; 2025 Marwa Noorestani</p>
+    </footer>
 </body>
 </html>
