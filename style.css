@@ -135,3 +135,90 @@ footer {
         width: 120px;
     }
 }
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #6c63ff, #836fff);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Profile Section */
+.profile {
+  padding: 2rem;
+  text-align: center;
+}
+.profile h2 {
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+.profile p {
+  max-width: 600px;
+  margin: auto;
+}
+.profile-pic {
+  margin-top: 1rem;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features {
+  padding: 2rem;
+  background: #fff;
+}
+.features h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.features ul {
+  list-style-type: none;
+  max-width: 600px;
+  margin: auto;
+  padding: 0;
+}
+.features li {
+  background: #f0f0ff;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: background 0.3s;
+}
+.features li:hover {
+  background: #e0dfff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #6c63ff;
+  color: white;
+  margin-top: 2rem;
+}
